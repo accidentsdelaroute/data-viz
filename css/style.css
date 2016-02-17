@@ -8,6 +8,10 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+#nvd3-chart svg {
+  height: 400px;
+}
+
 /* Basic */
 
 	body {
@@ -1089,3 +1093,5 @@
 					margin-left: 0;
 					padding-left: 0;
 				}
+                
+
