@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/style-xlarge.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.css">
+        <link rel="stylesheet" href="css/eUGsj.all.css">
         
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
         <!--[if lt IE 9]>
@@ -30,10 +31,14 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
-        
+        <script src="js/json2.min.js"></script>
+                
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
+        <script src="js/bar-chart-1a3f0242ee9d13cef39ccd24a306b422.min.js"></script>
+        <script src="js/chart-753c771b6f0ebc215cab76b0fca5e03aab20b743.min.js"></script>
+        <script src="js/default-5baee189e1a2f0bf680f4910cc958098.min.js"></script>
         
         <script src="js/scripts.js"></script>
 		
@@ -117,7 +122,31 @@
 				</div>
 			</section>
 
-
+    <!-- Two -->
+			<section id="two" class="wrapper style2 align-center">
+				<div class="container">
+					<header>
+						<h2>Comparaison nutritionnelle</h2>
+						<p>Quels apports pour quel produit ?</p>
+					</header>
+                    <div>
+                    <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-chart.html" onload='autoResize(this);'></iframe>
+                        <svg></svg>
+                    </div>
+					</div>
+                    
+                   
+                    
+					<footer>
+						<ul class="actions">
+							<li>
+								<a href="#" class="button alt big">Learn More</a>
+							</li>
+						</ul>
+					</footer>
+				</div>
+			</section>
+            
 		<!-- Two -->
 			<section id="two" class="wrapper style3 align-center">
 				<div class="container">
