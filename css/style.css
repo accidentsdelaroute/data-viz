@@ -8,9 +8,14 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-#nvd3-chart svg {
+#chart1 svg {
   height: 400px;
 }
+
+#chart2 svg {
+  height: 400px;
+}
+
 
 /* Basic */
 

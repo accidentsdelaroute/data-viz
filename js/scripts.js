@@ -1,7 +1,11 @@
-var scatterdata;
+drawChart('chart1',"data_AR_1.csv");
+drawChart('chart2',"data_AR_biscuits.csv");
+
+function drawChart(div, file){
+    var scatterdata;
    //Don't need to initialize nested array, d3.nest will create it.
 
-d3.csv("data_AR_1.csv", function (error, csv) {
+d3.csv(file, function (error, csv) {
   if (error) return console.log("there was an error loading the csv: " + error);
   console.log("there are " + csv.length + " elements in my csv set");
 
@@ -48,7 +52,7 @@ nv.addGraph(function() {
       +'<p>' + key.point.y + '% de graisses' +'</p>'
       +'<p>' + key.point.x + '% de sucre' +'</p>';
   });
-  d3.select('#nvd3-chart svg')
+  d3.select("#" + div + " svg")
       .datum(scatterdata)
     .transition().duration(500)
       .call(chart);
@@ -58,3 +62,7 @@ nv.addGraph(function() {
   return chart;});
   
   });
+  
+    
+}
+
