@@ -17,6 +17,10 @@
 		<link rel="stylesheet" href="css/style-xlarge.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.css">
         <link rel="stylesheet" href="css/eUGsj.all.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
         <!--[if lt IE 9]>
@@ -32,6 +36,9 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
         <script src="js/json2.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/npm.js"></script>
                 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.min.js"></script>
@@ -141,11 +148,21 @@ function autoResize(iframe){
 						<h2>Comparaison nutritionnelle</h2>
 						<p>Quels apports pour quel produit ?</p>
 					</header>
-                    <div>
-                    <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-chart.html" onload='autoResize(this);'></iframe>
+                <div class="btn-group" role="group">
+                    <button class="btn-group btn-group-lg" role="group" type="button" data-toggle="collapse" data-target="#collapseExample"" aria-expanded="true" aria-controls="collapseExample"> 
+                    Marques distributeur </button> 
+                    <button class="btn-group btn-group-lg" role="group" type="button" data-toggle="collapse" data-target="#collapseExample2"" aria-expanded="false" aria-controls="collapseExample2"> 
+                    Marques bio </button>  
+
+                    <div class="collapse" id="collapseExample"> 
+                        <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-chart.html" onload='autoResize(this);'></iframe>
                         <svg></svg>
                     </div>
-					</div>
+                    <div class="collapse" id="collapseExample2"> 
+                        <iframe width="120%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-chart.html" onload='autoResize(this);'></iframe>
+                        <svg></svg>
+                    </div>
+                </div>
                     
                    
                     
