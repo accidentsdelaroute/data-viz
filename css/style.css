@@ -20,6 +20,9 @@
   height: 400px;
 }
 
+#chart4 svg {
+  height: 400px;
+}
 /* Basic */
 
 	body {

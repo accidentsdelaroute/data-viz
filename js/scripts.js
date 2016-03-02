@@ -1,6 +1,7 @@
 drawChart('chart1',"data_AR_1.csv", "Sucre pour 100g", "Graisses pour 100g");
 drawChart('chart2',"data_AR_biscuits.csv", "Sucre pour 100g", "Graisses pour 100g");
 drawChart('chart3',"data_AR_jus.csv", "Sucre pour 100mL (g)", "Vitamine C pour 100mL (en mg)");
+drawChart('chart4',"data_AR_yogurt.csv", "Sucre pour 100g (g)","Graisses pour 100g");
 
 function drawChart(div, file, xlab, ylab){
     var scatterdata;
