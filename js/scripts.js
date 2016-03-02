@@ -1,7 +1,8 @@
-drawChart('chart1',"data_AR_1.csv");
-drawChart('chart2',"data_AR_biscuits.csv");
+drawChart('chart1',"data_AR_1.csv", "Sucre pour 100g", "Graisses pour 100g");
+drawChart('chart2',"data_AR_biscuits.csv", "Sucre pour 100g", "Graisses pour 100g");
+drawChart('chart3',"data_AR_jus.csv", "Sucre pour 100mL (g)", "Vitamine C pour 100mL (en mg)");
 
-function drawChart(div, file){
+function drawChart(div, file, xlab, ylab){
     var scatterdata;
    //Don't need to initialize nested array, d3.nest will create it.
 
@@ -36,16 +37,16 @@ nv.addGraph(function() {
                 .showDistY(true)
                 .color([ "#0772A1", "#00B743","#FF8700","#9B1E00", "#FF3100"])
                 .pointSize(50).pointRange([100,100])
-                .forceX([0,40])
-                .forceY([0,40]);
+                .forceX([0,1])
+                .forceY([0,1]);
 
   chart.xAxis
             .tickFormat(d3.format('.01f'))
-            .axisLabel('Sucre pour 100g');
+            .axisLabel(xlab);
             
   chart.yAxis
             .tickFormat(d3.format('.01f'))
-            .axisLabel('Gras pour 100g');
+            .axisLabel(ylab);
             
   chart.tooltip.contentGenerator(function(key) {
       return '<h3>' + key.point.brands_tags + '</h3>' 
