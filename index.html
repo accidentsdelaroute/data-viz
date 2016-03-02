@@ -179,52 +179,21 @@ function autoResize(iframe){
 						<h2>Comparaison nutritionnelle</h2>
 						<p>Quels apports pour quel produit ?</p>
 					</header>
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Marques distributeurs
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-               <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-chart.html" onload='autoResize(this);'></iframe>
-            <svg></svg>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Marques bios
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        <iframe width="120%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-chart.html" onload='autoResize(this);'></iframe>
-            <svg></svg>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Marques leaders
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        Test
-      </div>
-    </div>
-  </div>
-</div>
+                <div class="btn-group" role="group">
+                    <button class="btn-group btn-group-lg" role="group" type="button" data-toggle="collapse" data-target="#collapseExample"" aria-expanded="true" aria-controls="collapseExample"> 
+                    Marques distributeur </button> 
+                    <button class="btn-group btn-group-lg" role="group" type="button" data-toggle="collapse" data-target="#collapseExample2"" aria-expanded="false" aria-controls="collapseExample2"> 
+                    Marques bio </button>  
+
+                    <div class="collapse" id="collapseExample"> 
+                        <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-chart.html" onload='autoResize(this);'></iframe>
+                        <svg></svg>
+                    </div>
+                    <div class="collapse" id="collapseExample2"> 
+                        <iframe width="120%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-chart.html" onload='autoResize(this);'></iframe>
+                        <svg></svg>
+                    </div>
+                </div>
                     
                    
                     
