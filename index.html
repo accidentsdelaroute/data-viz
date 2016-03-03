@@ -52,15 +52,15 @@
         
         <script src="js/scripts.js"></script>
 				
-                <script type='text/javascript'>
-function autoResize(iframe){
-	var body = iframe.contentWindow.document.body;
-	var frameHeight = body.scrollHeight;
-	var frameWidth = body.scrollWidth;
-	iframe.height = frameHeight;
-	iframe.width = frameWidth;
-}
-</script>
+        <script type='text/javascript'>
+        function autoSize(iframe){
+	       var body = iframe.contentWindow.document.body;
+	       var frameHeight = body.scrollHeight;
+           var AccordionWidth = document.getElementById('accordion').offsetWidth;
+	       iframe.height = "150px";
+	       iframe.width = AccordionWidth;
+        }
+        </script>
 		
 		
   
