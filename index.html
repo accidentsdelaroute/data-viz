@@ -53,16 +53,19 @@
         <script src="js/scripts.js"></script>
 				
         <script type='text/javascript'>
-        function autoSize(iframe){
+        function autoResize(iframe){
 	       var body = iframe.contentWindow.document.body;
 	       var frameHeight = body.scrollHeight;
            var AccordionWidth = document.getElementById('accordion').offsetWidth;
 	       iframe.height = "150px";
 	       iframe.width = AccordionWidth;
-        }
+           }
+           
         </script>
 		
-		
+		<script type='text/javascript'>   
+            $(window).trigger('resize');
+        </script>
   
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -125,15 +128,15 @@
 					</header>
 					<div class="row 200%">
 						<section class="4u 12u$(small)">
-							<img class="image fit" src="images/pic02.jpg" alt="" />
+							<img class="imagecenter" src="images/orange.png" height="150px" width="150px" alt="" />
 							<p>2 verres de jus d'orange par semaine</p>
 						</section>
 						<section class="4u 12u$(small)">
-							<img class="image fit" src="images/pic02.jpg" alt="" />
+							<img class="imagecenter" src="images/yogurt.png" height="150px" width="150px" alt="" />
 							<p>3 yaourts par semaine</p>
 						</section>
 						<section class="4u$ 12u$(small)">
-							<img class="image fit" src="images/pic02.jpg" alt="" />
+							<img class="imagecenter" src="images/biscuit.png" height="150px" width="150px" alt="" />
 							<p>4 biscuits chocolatés par semaine</p>
 						</section>
 					</div>
@@ -151,39 +154,50 @@
 						<p>Apports nutritionnels </p>
 					</header>
             
-                
-     
-                            <h3>Pâtes à tartiner</h3>
+            <ul class="nav nav-pills nav-justified">
+                <li class="active"><a data-toggle="pill" href="#home" class="block">Pâtes à tartiner</a></li>
+                <li><a data-toggle="pill" href="#menu1" class="block"  >Biscuits chocolatés</a></li>
+                <li><a data-toggle="pill" href="#menu2" class="block">Jus d'orange</a></li>
+                <li><a data-toggle="pill" href="#menu3" class="block">Yaourts</a></li>
+                </ul>
+
+                <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                     <h3>Pâtes à tartiner</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <div id="chart1">
                                     <svg></svg>
                                 </div>
-                         
-                            <h3>Biscuits chocolatés</h3>
+                </div>
+                
+                <div id="menu1" class="tab-pane fade">
+                    <h3>Biscuits chocolatés</h3>
                             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 <div id="chart2">
                                     <svg></svg>
                                 </div>
-                            
-                            <h3>Jus</h3>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                     <h3>Jus</h3>
                             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 <div id="chart3">
                                     <svg></svg>
                                 </div>
-                            <h3>Yaourts</h3>
+                    
+                </div>
+                
+                 <div id="menu3" class="tab-pane fade">
+                     <h3>Yaourts</h3>
                             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 <div id="chart4">
                                     <svg></svg>
-                                </div>                    
-                    </div>
+                                </div>
                     
-                    
-                    
-                     
-					
-                    
-                  
-                    
+                </div>
+                
+                </div>
+                </div>
+
 					<footer>
 						<ul class="actions">
 							<li>
