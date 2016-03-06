@@ -7,7 +7,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
-		<title>Qui fait le meilleur goûter ?</title>
+		<title>Méthodologie - Qui fait le meilleur goûter ?</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="Indicateurs nutritionnels des produits de la grande distribution" />
 		<meta name="keywords" content="" />
@@ -16,23 +16,10 @@
         <link rel="stylesheet" href="css/skel.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/style-xlarge.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.css">
-        <link rel="stylesheet" href="css/eUGsj.all.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        
-         
-       
-        <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-            <script src="js/json2.min.js"></script>
-            <script type="text/javascript">
-            window.__ltie9 = true;
-            </script>
-        <![endif]-->
         
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -42,39 +29,19 @@
         <script src="js/bootstrap.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/npm.js"></script>
-                
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
-        <script src="js/bar-chart-1a3f0242ee9d13cef39ccd24a306b422.min.js"></script>
-        <script src="js/chart-753c771b6f0ebc215cab76b0fca5e03aab20b743.min.js"></script>
-        <script src="js/default-5baee189e1a2f0bf680f4910cc958098.min.js"></script>
-        
+                     
         <script src="js/scripts.js"></script>
-				
-        <script type='text/javascript'>
-        function autoSize(iframe){
-	       var body = iframe.contentWindow.document.body;
-	       var frameHeight = body.scrollHeight;
-           var AccordionWidth = document.getElementById('accordion').offsetWidth;
-	       iframe.height = "150px";
-	       iframe.width = AccordionWidth;
-        }
+        
+        <script type='text/javascript'>   
+            $('#myTabs a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+            })
         </script>
-		
-		
-  
-
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
+    
 	<body>
-    <script type='text/javascript'>   
-    $('#myTabs a').click(function (e) {
-    e.preventDefault()
-    $(this).tab('show')
-    })
-    </script>
-
+    
 		<!-- Header -->
 			<header id="header">
 				<h1><a href="index.html">Qui fait le meilleur goûter ?</a></h1>
@@ -112,10 +79,11 @@
                                 <header>
 					               <h3>Consommation hebdomadaire des enfants français :</h3>
                                 </header>
-					           <p>Ces statistiques ont été obtenues à partir des données de sondages issues de la base de données EFSA. 
-                                Ces données portent sur les habitudes de consommation des français et ont été récoltées concernant 
-                                des enfants âgés de 3 de à 10 ans. Seuls les biscuits chocolatés, les jus d'orange (hors nectar) et les 
-                                yaourts natures ont été considérés. </p>
+                                <div align="justify">
+					           <p>Ces statistiques ont été obtenues à partir des données de sondages issues de la base de données <a href="sources.html">EFSA</a>. 
+                                Ces données portent sur les habitudes de consommation des français et concernent 
+                                des enfants âgés de 3 de à 10 ans. Seuls les biscuits chocolatés, les jus d'orange (hors nectars) et les 
+                                yaourts natures ont été considérés. </p></div>
 					           <footer>
 						          <ul class="actions">
 							         <li>
@@ -134,7 +102,8 @@
                                 <header>
                                     <h3>Que se cache-t-il derrière ces jolis packagings ?</h3>
                                 </header>
-                                <p>Les graphiques ont été réalisés à partir de la base de données d'Open Food Facts.</p>
+                                <div align="justify">
+                                <p>Les graphiques ont été réalisés à partir de la base de données d'<a href="sources.html">Open Food Facts</a>.</p></div>
                                 <footer>
                                     <ul class="actions">
                                         <li>
@@ -153,10 +122,71 @@
 					           <header>
 						          <h3>Quels apports pour quels produits ?</h3>
 					           </header>
-                               <p>Les graphiques ont été réalisés à partir de la base de données d'Open Food Facts. Une dose de pâte à tartiner est de 30g,
+                               <div align="justify">
+                               <p>Les graphiques ont été réalisés à partir de la base de données d'<a href="sources.html">Open Food Facts</a>. Une dose de pâte à tartiner est de 30g,
                                   ce qui correspond à environ une cuillère à café. L'ensemble des biscuits contenant du chocolat sont considérés comme des
                                   biscuits chocolatés, leur poids moyen est d'environ 10g. Les marques considérées pour réaliser les graphiques sont précisées 
-                                  dans les onglets suivants : </p>
+                                  dans le tableau suivant, ce sont les marques les plus représentées dans la base de données : </p></div>
+                               <table>
+                                   <thead>                                   
+                                   <tr>
+                                       <td><b>Marques</b></td>
+                                       <td><b>Pâtes à tartiner</b></td>
+                                       <td><b>Biscuits chocolatés</b></td>
+                                       <td><b>Yaourts</b></td>
+                                       <td><b>Jus d'orange</b></td>
+                                   </tr>
+                                   </thead>
+                                   <tbody>
+                                   <!-- Ligne leaders-->
+                                   <tr>
+                                       <td>Leaders</td>
+                                       <td>Nutella</td>
+                                       <td>BN et Lu                                            
+                                       </td>
+                                       <td>Danone, Nestle et Yoplait
+                                       </td>
+                                       <td>Joker, Pampryl et Tropicana
+                                       </td>
+                                   </tr>
+                                   <!-- Ligne distributeurs-->
+                                   <tr>
+                                       <td>Distributeurs</td>
+                                       <td colspan="4">Auchan, Carrefour, Casino, Cora, Dia et Monoprix
+                                       </td>
+                                   </tr>
+                                   <!-- Ligne bio-->
+                                   <tr>
+                                       <td>Bios</td>
+                                       <td>Biocoop, Bjorg, Bonneterre, Lea Nature, Mamie-Bio et Ti-Bio
+                                       </td>
+                                       <td>Biocoop, Bjorg, Bonneterre et Gerble
+                                       </td>
+                                       <td>Bonneterre, Casino-Bio, Paturages, U-Bio et Vrai
+                                       </td>
+                                       <td>Auchan-Bio, Casino-Bio, Monoprix-Bio et U-Bio
+                                       </td>
+                                   </tr>
+                                   <!-- Ligne premiers prix-->
+                                   <tr>
+                                       <td>Premier prix</td>
+                                       <td>Nussa et Top-Budget
+                                       </td>
+                                       <td>Eco, Nussa, Tous les jours et Winny
+                                       </td>
+                                       <td>Eco et sans marque
+                                       </td>
+                                       <td>Lidl et Vitafit
+                                       </td>
+                                   </tr>
+                                   </tbody>
+                                   </table>
+                               <div align="justify">
+                               <p>Pour les marques leaders seuls les produits de la branche principale ont été conservés et non les produits des branches 
+                                  auxiliaires. Ainsi, dans le cas de Danone, les branches Actimel, Activia, Danacol, Danio, Gervais, Taillefine et Velouté
+                                  n'ont pas été prises en compte. Ce choix a été fait afin de conserver des valeurs d'apports nutritionnels peu dispersées. 
+                                  De même pour les marques distributeurs, les branches bios des marques distributeurs apparaissant parfois dans les marques
+                                  bios retenues. </p></div>
 					           <footer>
 						          <ul class="actions">
 							         <li>
@@ -175,7 +205,8 @@
 					           <header>
 						          <h3>Comparaison internationale</h3>
 					           </header>
-                               <p>Les graphiques ont été réalisés à partir de la base de données de sondages EFSA.</p>
+                               <div align="justify">
+                               <p>Les graphiques ont été réalisés à partir de la base de données de sondages <a href="sources.html">EFSA</a>.</p></div>
 					           <footer>
                                     <ul class="actions">
                                         <li>
@@ -202,7 +233,7 @@
 						<section class="4u 6u$(medium) 12u$(small)">
                             <ul class="tabular">
 							<h3>QUI SOMMES-NOUS ?</h3>
-                            <p>Etudiants en dernière année d'école d'ingénieur à l'ENSAE ParisTech, Raphaël Denis, Delphine Gras et Audrey Ribeiro-Gonçalves ont réalisé cette étude.</p>
+                            <h4>Etudiants en dernière année d'école d'ingénieur à l'ENSAE ParisTech, Raphaël Denis, Delphine Gras et Audrey Ribeiro-Gonçalves ont réalisé cette étude.</h4>
 							<li></li>
                             <h3><a href="index.html">ACCUEIL</a></h3>
                             <li></li>                           
