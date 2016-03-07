@@ -11,21 +11,29 @@
 #chart1 svg {
   height: 400px;
   width: 1050px;
+  display: block;
+  margin : auto;
 }
 
 #chart2 svg {
   height: 400px;
   width: 1050px;
+  display: block;
+  margin : auto;
 }
 
 #chart3 svg {
   height: 400px;
   width: 1050px;
+  display: block;
+  margin : auto;
 }
 
 #chart4 svg {
   height: 400px;
   width: 1050px;
+  display: block;
+  margin : auto;
 }
 
     
