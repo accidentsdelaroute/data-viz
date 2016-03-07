@@ -119,7 +119,7 @@
 			</section>
 
 <!-- INTRO -->
-			<section id="one" class="wrapper style3 align-center">
+			<section id="intro" class="wrapper style3 align-center">
 				<div class="container">
 					<header>
 						<h2>Il est 4 heures !   </h2>
@@ -215,75 +215,38 @@
 						<h2>Comparaison nutritionnelle</h2>
 						<p>Quels apports pour quel produit ?</p>
 					</header>
-<div>
-                 
-                    					
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Marques leaders
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-               <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-DG-2.html" onload='autoResize(this);'></iframe>
-            <svg></svg>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Marques distributeurs
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-DG-1.html" onload='autoResize(this);'></iframe>
-            <svg></svg>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Marques bios
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-            <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-DG-3.html" onload='autoResize(this);'></iframe>
-            <svg></svg>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFour">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          Marques premier prix
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-      <div class="panel-body">
-            <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-DG-4.html" onload='autoResize(this);'></iframe>
-            <svg></svg>
-      </div>
-    </div>
-  </div>
-</div>
+                <div>   
+                <ul class="nav nav-pills nav-justified">
+                <li class="active"><a data-toggle="pill" href="#leader" class="block">Marques leaders</a></li>
+                <li><a data-toggle="pill" href="#distributeur" class="block"  >Marques distributeurs</a></li>
+                <li><a data-toggle="pill" href="#bio" class="block">Marques bios</a></li>
+                <li><a data-toggle="pill" href="#premierprix" class="block">Marques premier prix</a></li>
+                </ul>
 
-                    
-                   
-                    
+                <div class="tab-content">
+                <div id="leader" class="tab-pane fade in active">
+                    <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-DG-2.html" onload='autoResize(this);'></iframe>
+                    <svg></svg>
+                    <p>Le produit le moins sucré est </p>             
+                </div>
+                
+                <div id="distributeur" class="tab-pane fade">
+                    <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-DG-1.html" onload='autoResize(this);'></iframe>
+                    <svg></svg>                
+                </div>
+                <div id="bio" class="tab-pane fade">
+                     <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-DG-3.html" onload='autoResize(this);'></iframe>
+                     <svg></svg>                    
+                </div>
+                
+                 <div id="premierprix" class="tab-pane fade">
+                     <iframe width="100%" scrolling="no" class="data-wrapper-chart" src="data-wrapper-DG-4.html" onload='autoResize(this);'></iframe>
+                     <svg></svg>    
+                </div>
+                
+                </div>
+                </div>
+
 					<footer>
 						<ul class="actions">
 							<li>
