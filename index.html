@@ -54,11 +54,9 @@
 				
         <script type='text/javascript'>
         function autoResize(iframe){
-	       var body = iframe.contentWindow.document.body;
-	       var frameHeight = body.scrollHeight;
            var AccordionWidth = document.getElementById('accordion').offsetWidth;
-	       iframe.height = "150px";
-	       iframe.width = AccordionWidth;
+	       iframe.height = (AccordionWidth-10px)*0.3;
+	       iframe.width = AccordionWidth-10px;
            }
            
         </script>
