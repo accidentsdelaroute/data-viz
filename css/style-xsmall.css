@@ -6,6 +6,13 @@
 
 /* Basic */
 
+#chart1 svg {
+  height: 400px;
+  width: 150px ;
+  display: block;
+  margin : auto;
+}
+
 	html, body {
 		min-width: 320px;
 	}
