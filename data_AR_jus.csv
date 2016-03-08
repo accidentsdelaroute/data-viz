@@ -1,16 +1,15 @@
 brands_tags,y,x,groups,size
 "1-2-3-fruits",12,11,"Autres marques",10
-"auchan",23,9.927273,"Marques distributeur",10
-"auchan,auchan-bio",20,10.2,"Marques bio",10
-"bio-village,marque-repere",39,10,"Marques bio",10
+"auchan",23,9.876924,"Marques distributeur",10
+"auchan-bio",20,10.2,"Marques bio",10
 "brici",20,9,"Autres marques",10
-"carrefour",21.90909,9.545,"Marques distributeur",10
+"carrefour",21.90909,9.557895,"Marques distributeur",10
 "casino",23.75,10.1,"Marques distributeur",10
-"casino,casino-bio",23,9.75,"Marques bio",10
+"casino-bio",23,9.75,"Marques bio",10
 "cora",26,9.3,"Marques distributeur",10
 "dia",22,9.7,"Marques distributeur",10
 "diego",27.5,9,"Autres marques",10
-"extra-frui",30,9.65,"Autres marques",10
+"extra-fruit",30,9.3,"Autres marques",10
 "goldhorn",40,8.833333,"Premiers prix",10
 "grand-jury",27.5,8.7,"Autres marques",10
 "innocent",21.71428,8.064286,"Leader",10
@@ -19,9 +18,9 @@ brands_tags,y,x,groups,size
 "leader-price",22.5,8.963636,"Marques distributeur",10
 "lidl",20,9.200001,"Premiers prix",10
 "marque-repere",23.83333,9.723077,"Marques distributeur",10
+"marque-repere-bio",39,10,"Marques bio",10
 "minute-maid",25,10.05,"Leader",10
-"monoprix",31.66667,9.48,"Marques distributeur",10
-"monoprix-bio,monoprix",12,10,"Marques bio",10
+"monoprix-ptits-prix",26.75,9.771429,"Marques distributeur",10
 "netto",20,9.466667,"Marques distributeur",10
 "new-covent-garden,new-covent-garden-food-company",49,9,"Autres marques",10
 "pampryl",25,9.066667,"Leader",10
