@@ -1,63 +1,63 @@
-brands_tags,y,x,calcium_100g,groups,size
-"actimel danone",.69,7.84,.12,"Leader",10
-"activia danone",3.115,9.817,.1337,"Leader",10
-"aldi",2.8,11.16,.12,"Premiers prix",10
-"auchan",2.775,9.8384,.12,"Marques distributeur",10
-"biochamps",2.9,7.8,.179,"Marques bio",10
-"biocoop",13,3,.17,"Marques bio",10
-"biotrend",3.4,5.6,,"Marques bio",10
-"bonne-maman",4.383333,14.91667,,"Leader",10
-"bonneterre",2.733333,10.15,.126,"Marques bio",10
-"carrefour",2.588,8.903704,.13375,"Marques distributeur",10
-"carrefour bio",3.683333,7.716667,.12,"Marques bio",10
-"casino",2.966154,10.16821,.122,"Marques distributeur",10
-"casino-bio",5.133333,9.333333,,"Marques bio",10
-"cora",2.16,11.24,,"Marques distributeur",10
-"danacol danone",.5,6.1,.157,"Leader",10
-"danio danone",1,11.2375,.1103333,"Leader",10
-"danone",2.249796,10.17225,.1319655,"Leader",10
-"dia",2.753846,10.38333,.12,"Marques distributeur",10
-"domaine-du-bignon,senoble",3.4,4.1,.13,"Leader",10
-"eco",1,12,,"Premiers prix",10
-"elle-vire",.1,4.9,,"Leader",10
-"franprix",2.145618,11.32472,.1528125,"Marques distributeur",10
-"gervais danone",7.15,13.28333,.24,"Leader",10
-"ilios,danone",10,3.6,,"Leader",10
-"intermarche",2.35,10.90857,.1271428,"Marques distributeur",10
-"intermarche bio",3.5,9.6,.12,"Marques bio",10
-"la-laitiere,nestle",3.075,11.2,.1305,"Leader",10
-"lait-plaisirs-cremiers,vitafrais",3.7,4.8,,"Marques bio",10
-"leader-price",2.441667,11.66364,.12,"Marques distributeur",10
-"leclerc",2.584211,8.815789,.1336364,"Marques distributeur",10
-"leclerc bio",4.1,11.33333,.12,"Marques bio",10
-"les-2-vaches",3.131579,11.18947,.1315,"Leader",10
-"lidl",2.558235,11.81086,.1313333,"Premiers prix",10
-"malo",2.44375,13.20667,.12,"Leader",10
-"mamie-nova",3.291667,12.96667,.115,"Leader",10
-"marche-franprix",3.3,16,,"Marques distributeur",10
-"matin-clair",1,5,,"Marques distributeur",10
-"migros,elsa,m-bio",3.3,14,,"Marques bio",10
-"monoprix",2.955,8.775,.1235,"Marques distributeur",10
-"monoprix bio",3.4,12,,"Marques bio",10
-"monoprix-p-tit-prix",1.1,3.7,.12,"Marques distributeur",10
-"nestle",7.2,10.5,,"Leader",10
-"nestle,la-laitiere",2.98,14.32,.1255,"Leader",10
-"netto",1.7,13.3,.12,"Marques distributeur",10
-"oasis",1.9,12,,"Leader",10
-"ose-bio,vitafrais",3.7,4.8,,"Marques bio",10
-"paturages-bio,paturages,selection-intermarche",2.6,11.1,,"Marques bio",10
-"paysagebio,laiterie-carrier",1,4.93,,"Marques bio",10
-"rians",4.85,6.8,,"Leader",10
-"senoble",11.9,14.75,,"Leader",10
-"soignon",4.24,12,,"Leader",10
-"sojade",2.2,10.3,,"Marques bio",10
-"sojasun",2.221053,9.247369,.1236842,"Leader",10
-"springfresh",.8,12.6,,"Premiers prix",10
-"sveltesse nestle",.4714286,6.542857,.1377273,"Leader",10
-"taillefine danone",.208,5.71,.1231,"Leader",10
-"u",2.728636,10.19636,.1285714,"Marques distributeur",10
-"u-bio",3.25,6.4,.12,"Marques bio",10
-"veloute danone",3.245714,9.162857,.1433333,"Leader",10
-"vrai",2.957143,7.6,,"Marques bio",10
-"winny,bloc-cvba,groupe-louis-delhaize",.904,13.7,,"Premiers prix",10
-"yogourmand",3.7,4.8,,"Marques bio",10
+brands_tags,calcium_100g,groups,y,x,size
+"la-laitiere,nestle",.1305,"Leader",3.1,11.2,10
+"danone",.1319655,"Leader",2.2,10.2,10
+"danacol danone",.157,"Leader",.5,6.1,10
+"senoble",,"Leader",11.9,14.8,10
+"elle-vire",,"Leader",.1,4.9,10
+"actimel danone",.12,"Leader",.7,7.8,10
+"veloute danone",.1433333,"Leader",3.2,9.2,10
+"malo",.12,"Leader",2.4,13.2,10
+"rians",,"Leader",4.8,6.8,10
+"soignon",,"Leader",4.2,12,10
+"nestle",,"Leader",7.2,10.5,10
+"mamie-nova",.115,"Leader",3.3,13,10
+"les-2-vaches",.1315,"Leader",3.1,11.2,10
+"sojasun",.1236842,"Leader",2.2,9.2,10
+"ilios,danone",,"Leader",10,3.6,10
+"oasis",,"Leader",1.9,12,10
+"sveltesse nestle",.1377273,"Leader",.5,6.5,10
+"activia danone",.1337,"Leader",3.1,9.8,10
+"danio danone",.1103333,"Leader",1,11.2,10
+"taillefine danone",.1231,"Leader",.2,5.7,10
+"bonne-maman",,"Leader",4.4,14.9,10
+"nestle,la-laitiere",.1255,"Leader",3,14.3,10
+"gervais danone",.24,"Leader",7.2,13.3,10
+"domaine-du-bignon,senoble",.13,"Leader",3.4,4.1,10
+"franprix",.1528125,"Marques distributeur",2.1,11.3,10
+"dia",.12,"Marques distributeur",2.8,10.4,10
+"casino",.122,"Marques distributeur",3,10.2,10
+"monoprix-p-tit-prix",.12,"Marques distributeur",1.1,3.7,10
+"u",.1285714,"Marques distributeur",2.7,10.2,10
+"matin-clair",,"Marques distributeur",1,5,10
+"marche-franprix",,"Marques distributeur",3.3,16,10
+"intermarche",.1271428,"Marques distributeur",2.3,10.9,10
+"leader-price",.12,"Marques distributeur",2.4,11.7,10
+"auchan",.12,"Marques distributeur",2.8,9.8,10
+"monoprix",.1235,"Marques distributeur",3,8.8,10
+"netto",.12,"Marques distributeur",1.7,13.3,10
+"cora",,"Marques distributeur",2.2,11.2,10
+"leclerc",.1336364,"Marques distributeur",2.6,8.8,10
+"carrefour",.13375,"Marques distributeur",2.6,8.9,10
+"biotrend",,"Marques bio",3.4,5.6,10
+"ose-bio,vitafrais",,"Marques bio",3.7,4.8,10
+"bonneterre",.126,"Marques bio",2.7,10.1,10
+"biocoop",.17,"Marques bio",13,3,10
+"yogourmand",,"Marques bio",3.7,4.8,10
+"intermarche bio",.12,"Marques bio",3.5,9.6,10
+"vrai",,"Marques bio",3,7.6,10
+"casino-bio",,"Marques bio",5.1,9.3,10
+"paysagebio,laiterie-carrier",,"Marques bio",1,4.9,10
+"paturages-bio,paturages,selection-intermarche",,"Marques bio",2.6,11.1,10
+"carrefour bio",.12,"Marques bio",3.7,7.7,10
+"u-bio",.12,"Marques bio",3.3,6.4,10
+"lait-plaisirs-cremiers,vitafrais",,"Marques bio",3.7,4.8,10
+"monoprix bio",,"Marques bio",3.4,12,10
+"migros,elsa,m-bio",,"Marques bio",3.3,14,10
+"sojade",,"Marques bio",2.2,10.3,10
+"leclerc bio",.12,"Marques bio",4.1,11.3,10
+"biochamps",.179,"Marques bio",2.9,7.8,10
+"eco",,"Premiers prix",1,12,10
+"winny,bloc-cvba,groupe-louis-delhaize",,"Premiers prix",.9,13.7,10
+"lidl",.1313333,"Premiers prix",2.6,11.8,10
+"springfresh",,"Premiers prix",.8,12.6,10
+"aldi",.12,"Premiers prix",2.8,11.2,10

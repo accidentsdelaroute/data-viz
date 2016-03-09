@@ -1,33 +1,33 @@
-brands_tags,y,x,groups,size
-"Nutella",31.12727,55.44762,"Leader",10
-"Franprix",32,54,"Marques distributeur",10
-"Netto",33.2,57.65,"Marques distributeur",10
-"Dia",31.6,52.8,"Marques distributeur",10
-"Monoprix",32,54,"Marques distributeur",10
-"U Saveurs",47.8,31.5,"Marques distributeur",10
-"Marque Repere",29,58,"Marques distributeur",10
-"Cora",33.55,52.9,"Marques distributeur",10
-"Leader Price",32,54,"Marques distributeur",10
-"Auchan",31.23333,55.5,"Marques distributeur",10
-"Casino",32,54,"Marques distributeur",10
-"Bjorg",35.9,40.4,"Marques bio",10
-"Jean Herve",43.9,29.1,"Marques bio",10
-"Bovetti",50,33,"Marques bio",10
-"Ti Bio",42.25,29.1,"Marques bio",10
-"Bonneterre",37,51,"Marques bio",10
-"Lea Nature",35.16,39.74,"Marques bio",10
-"Ivoria",31.35,56.25,"Marques bio",10
-"Rigoni Di Asiago",30,51,"Marques bio",10
-"Mamie Bio",34.6,51.6,"Marques bio",10
-"Gerble",6.6,6.1,"Marques bio",10
-"Perl Amande",31.9,45.5,"Marques bio",10
-"Biocoop",50,25,"Marques bio",10
-"Newtree",15.8,32.4,"Marques bio",10
-"Carrefour Bio",29,59,"Marques bio",10
-"Top Budget",32.2,55.4,"Premiers prix",10
-"Choco Nussa",29.6,56,"Premiers prix",10
-"Nutabreizh,Terre Et Soleil",33,24,"Autres marques",10
-"Tartichoc",29.6,56,"Autres marques",10
-"Raffole",6.1,44,"Autres marques",10
-"Bridelice",20,31,"Autres marques",10
-"Winny",35,58,"Autres marques",10
+brands_tags,groups,y,x,size
+"Nutella","Leader",31.1,55.4,10
+"Franprix","Marques distributeur",32,54,10
+"Marque Repere","Marques distributeur",29,58,10
+"Cora","Marques distributeur",33.5,52.9,10
+"Monoprix","Marques distributeur",32,54,10
+"Leader Price","Marques distributeur",32,54,10
+"Dia","Marques distributeur",31.6,52.8,10
+"Auchan","Marques distributeur",31.2,55.5,10
+"Casino","Marques distributeur",32,54,10
+"U Saveurs","Marques distributeur",47.8,31.5,10
+"Netto","Marques distributeur",33.2,57.7,10
+"Gerble","Marques bio",6.6,6.1,10
+"Bjorg","Marques bio",35.9,40.4,10
+"Rigoni Di Asiago","Marques bio",30,51,10
+"Bovetti","Marques bio",50,33,10
+"Lea Nature","Marques bio",35.2,39.7,10
+"Ivoria","Marques bio",31.4,56.3,10
+"Mamie Bio","Marques bio",34.6,51.6,10
+"Jean Herve","Marques bio",43.9,29.1,10
+"Carrefour Bio","Marques bio",29,59,10
+"Ti Bio","Marques bio",42.3,29.1,10
+"Perl Amande","Marques bio",31.9,45.5,10
+"Newtree","Marques bio",15.8,32.4,10
+"Biocoop","Marques bio",50,25,10
+"Bonneterre","Marques bio",37,51,10
+"Top Budget","Premiers prix",32.2,55.4,10
+"Choco Nussa","Premiers prix",29.6,56,10
+"Raffole","Autres marques",6.1,44,10
+"Nutabreizh,Terre Et Soleil","Autres marques",33,24,10
+"Winny","Autres marques",35,58,10
+"Bridelice","Autres marques",20,31,10
+"Tartichoc","Autres marques",29.6,56,10

@@ -1,36 +1,36 @@
-brands_tags,y,x,groups,size
-"1 2 3 Fruits",12,11,"Autres marques",10
-"Auchan",23,9.876924,"Marques distributeur",10
-"Auchan Bio",20,10.2,"Marques bio",10
-"Brici",20,9,"Autres marques",10
-"Carrefour",21.90909,9.557895,"Marques distributeur",10
-"Casino",23.75,10.1,"Marques distributeur",10
-"Casino Bio",23,9.75,"Marques bio",10
-"Cora",26,9.3,"Marques distributeur",10
-"Dia",22,9.7,"Marques distributeur",10
-"Diego",27.5,9,"Autres marques",10
-"Extra Fruit",30,9.3,"Autres marques",10
-"Goldhorn",40,8.833333,"Premiers prix",10
-"Grand Jury",27.5,8.7,"Autres marques",10
-"Innocent",21.71428,8.064286,"Leader",10
-"Joker",45,8.518182,"Leader",10
-"Le Prix Gagnant",16,10.25,"Premiers prix",10
-"Leader Price",22.5,8.963636,"Marques distributeur",10
-"Lidl",20,9.200001,"Premiers prix",10
-"Marque Repere",23.83333,9.723077,"Marques distributeur",10
-"Marque Repere Bio",39,10,"Marques bio",10
-"Minute Maid",25,10.05,"Leader",10
-"Monoprix Ptits Prix",26.75,9.771429,"Marques distributeur",10
-"Netto",20,9.466667,"Marques distributeur",10
-"New Covent Garden,New Covent Garden Food Company",49,9,"Autres marques",10
-"Pampryl",25,9.066667,"Leader",10
-"Paquito",20,10.43333,"Marques distributeur",10
-"Plein Fruit",36,8.1,"Autres marques",10
-"Pressade",20,8.666667,"Autres marques",10
-"Pur Fruit",28.5,9.65,"Autres marques",10
-"Royal",25,9.2,"Autres marques",10
-"Top Budget",20,10,"Autres marques",10
-"Tropicana",32.17391,9.951852,"Leader",10
-"U",29.18182,10.2,"Marques distributeur",10
-"U Bio",20,10.4,"Marques bio",10
-"Vitafit",30,8.98,"Premiers prix",10
+brands_tags,groups,y,x,size
+"Pampryl","Leader",25,9.1,10
+"Innocent","Leader",21.7,8.1,10
+"Joker","Leader",45,8.5,10
+"Tropicana","Leader",32.2,10,10
+"Minute Maid","Leader",25,10.1,10
+"Leader Price","Marques distributeur",22.5,9,10
+"U","Marques distributeur",29.2,10.2,10
+"Cora","Marques distributeur",26,9.3,10
+"Auchan","Marques distributeur",23,9.9,10
+"Monoprix Ptits Prix","Marques distributeur",26.8,9.8,10
+"Marque Repere","Marques distributeur",23.8,9.7,10
+"Carrefour","Marques distributeur",21.9,9.6,10
+"Casino","Marques distributeur",23.8,10.1,10
+"Dia","Marques distributeur",22,9.7,10
+"Netto","Marques distributeur",20,9.5,10
+"Paquito","Marques distributeur",20,10.4,10
+"Marque Repere Bio","Marques bio",39,10,10
+"Casino Bio","Marques bio",23,9.8,10
+"U Bio","Marques bio",20,10.4,10
+"Auchan Bio","Marques bio",20,10.2,10
+"Le Prix Gagnant","Premiers prix",16,10.3,10
+"Vitafit","Premiers prix",30,9,10
+"Goldhorn","Premiers prix",40,8.8,10
+"Lidl","Premiers prix",20,9.2,10
+"Brici","Autres marques",20,9,10
+"New Covent Garden,New Covent Garden Food Company","Autres marques",49,9,10
+"Pressade","Autres marques",20,8.7,10
+"Pur Fruit","Autres marques",28.5,9.6,10
+"Grand Jury","Autres marques",27.5,8.7,10
+"Diego","Autres marques",27.5,9,10
+"1 2 3 Fruits","Autres marques",12,11,10
+"Extra Fruit","Autres marques",30,9.3,10
+"Top Budget","Autres marques",20,10,10
+"Royal","Autres marques",25,9.2,10
+"Plein Fruit","Autres marques",36,8.1,10
