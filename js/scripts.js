@@ -1,7 +1,7 @@
-drawChart('chart1',"data_AR_1.csv", "Sucre pour 100g", "Graisses pour 100g");
-drawChart('chart2',"data_AR_biscuits.csv", "Sucre pour 100g", "Graisses pour 100g");
-drawChart('chart3',"data_AR_jus.csv", "Sucre pour 100mL (g)", "Vitamine C pour 100mL (en mg)");
-drawChart('chart4',"data_AR_yogurt.csv", "Sucre pour 100g (g)","Graisses pour 100g");
+drawChart('chart1',"data_AR_1.csv", " grammes de sucre pour 100g", " grammes de matières grasses pour 100g");
+drawChart('chart2',"data_AR_biscuits.csv", " grammes de sucre pour 100g", " grammes de matières grasses pour 100g");
+drawChart('chart3',"data_AR_jus.csv", " grammes de sucre pour 100mL", " milligrammes de Vitamine C pour 100mL");
+drawChart('chart4',"data_AR_yogurt.csv", " grammes de sucre pour 100g", " grammes de matières grasses pour 100g");
 
 function drawChart(div, file, xlab, ylab){
     var scatterdata;
@@ -36,9 +36,9 @@ nv.addGraph(function() {
   var chart = nv.models.scatterChart()
                 .showDistX(true)
                 .showDistY(true)
-                .color([ "#0772A1", "#00B743","#FF8700","#9B1E00", "#FF3100"])
+                .color([ "#0772A1","#FF8700", "#00B743", "#FF3100", "#9b59b6"])
                 .pointSize(50).pointRange([100,100])
-                .forceX([0,1])
+                .forceX([4,5])
                 .forceY([0,1]);
 
   chart.xAxis
@@ -51,8 +51,8 @@ nv.addGraph(function() {
             
   chart.tooltip.contentGenerator(function(key) {
       return '<h3>' + key.point.brands_tags + '</h3>' 
-      +'<p>' + key.point.y + '% de graisses' +'</p>'
-      +'<p>' + key.point.x + '% de sucre' +'</p>';
+      +'<p>' + key.point.y + ylab +'</p>'
+      +'<p>' + key.point.x + xlab +'</p>';
   });
   d3.select("#" + div + " svg")
       .datum(scatterdata)
