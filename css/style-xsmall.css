@@ -8,7 +8,28 @@
 
 #chart1 svg {
   height: 400px;
-  width: 150px ;
+  width: 250px ;
+  display: block;
+  margin : auto;
+}
+
+#chart2 svg {
+  height: 400px;
+  width: 250px ;
+  display: block;
+  margin : auto;
+}
+
+#chart3 svg {
+  height: 400px;
+  width: 250px ;
+  display: block;
+  margin : auto;
+}
+
+#chart4 svg {
+  height: 400px;
+  width: 250px ;
   display: block;
   margin : auto;
 }
