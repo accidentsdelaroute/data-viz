@@ -52,10 +52,10 @@
     <script type="text/javascript" charset="utf-8" src="//static.dwcdn.net/js/dw-backend.js"></script>
 
     
-        <script type="text/javascript" charset="utf-8" src="//static.dwcdn.net/plugins/organizations/bootstrap2-toggle.min.js?v=1.3.0"></script>
-        <script type="text/javascript" charset="utf-8" src="//static.dwcdn.net/plugins/organizations/organization-settings.js?v=1.3.0"></script>
+        <script type="text/javascript" charset="utf-8" src="//static.dwcdn.net/plugins/organizations/bootstrap2-toggle.min.js?v=1.3.1"></script>
+        <script type="text/javascript" charset="utf-8" src="//static.dwcdn.net/plugins/organizations/organization-settings.js?v=1.3.1"></script>
         <link href="//static.dwcdn.net/plugins/jpp-branding/jpp-homepage.css?v=1.0.0" rel="stylesheet">
-        <link href="//static.dwcdn.net/plugins/organizations/bootstrap2-toggle.min.css?v=1.3.0" rel="stylesheet">
+        <link href="//static.dwcdn.net/plugins/organizations/bootstrap2-toggle.min.css?v=1.3.1" rel="stylesheet">
     
   </head>
 
@@ -119,7 +119,7 @@
                 </div>
                             </div>
                         <div class="alternative-signins">
-               Oder melde dich an über:                                    <a href="https://www.facebook.com/v2.2/dialog/oauth?client_id=332893466915193&amp;redirect_uri=http%3A%2F%2Fdatawrapper.de%2Fsignin%2Ffacebook&amp;state=8ce865fb9eca81a6fc89e7474c1a4199&amp;sdk=php-sdk-4.0.12&amp;scope="><i class="fa fa-facebook"></i> Facebook</a>
+               Oder melde dich an über:                                    <a href="https://www.facebook.com/v2.2/dialog/oauth?client_id=332893466915193&amp;redirect_uri=http%3A%2F%2Fdatawrapper.de%2Fsignin%2Ffacebook&amp;state=39c5ccdb0029bec299dc17db0c5a4e32&amp;sdk=php-sdk-4.0.12&amp;scope="><i class="fa fa-facebook"></i> Facebook</a>
                                     <a href="/signin/github"><i class="fa fa-github"></i> Github</a>
                                     <a href="/signin/twitter"><i class="fa fa-twitter"></i> Twitter</a>
                             </div>
