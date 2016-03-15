@@ -62,9 +62,23 @@ nv.addGraph(function() {
   nv.utils.windowResize(chart.update);
 
   return chart;});
-  
+
   });
-  
-    
+
+
 }
 
+$( document ).ready(function() {
+  $('#compare-tabs a').click(function(e) {
+    e.preventDefault();
+    // Show the tab
+    paneID = $(e.target).attr('href');
+    $(this).tab('show');
+    // If the iframe hasn't already been loaded once
+    console.log($(paneID+' iframe').attr('src'))
+    if(! $(paneID+' iframe').attr('src')) {
+      // Load it!
+      $(paneID+' iframe').attr('src', $(paneID+' iframe').attr('data-src'));
+    }
+  });
+});
