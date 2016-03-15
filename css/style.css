@@ -1059,6 +1059,8 @@
 			}
 
 		.wrapper.style2 .title, .wrapper.style2 header {
+            border-top : medium double rgba(144, 144, 144, 0.25);
+            padding-top : 1.5em;
 			border-bottom: medium double rgba(144, 144, 144, 0.25);
 			padding-bottom: 1em;
 		}
