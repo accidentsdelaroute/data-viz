@@ -1,7 +1,7 @@
-drawChart('chart1',"data_AR_1.csv", " grammes de sucre pour 100g", " grammes de matières grasses pour 100g");
-drawChart('chart2',"data_AR_biscuits.csv", " grammes de sucre pour 100g", " grammes de matières grasses pour 100g");
-drawChart('chart3',"data_AR_jus.csv", " grammes de sucre pour 100mL", " milligrammes de Vitamine C pour 100mL");
-drawChart('chart4',"data_AR_yogurt.csv", " grammes de sucre pour 100g", " grammes de matières grasses pour 100g");
+drawChart('pates-a-tartiner',"data_pates.csv", " grammes de sucre pour 100g", " grammes de matières grasses pour 100g");
+drawChart('biscuits-chocolates',"data_biscuits.csv", " grammes de sucre pour 100g", " grammes de matières grasses pour 100g");
+drawChart('jus-orange',"data_jus.csv", " grammes de sucre pour 100mL", " milligrammes de Vitamine C pour 100mL");
+drawChart('yaourts-natures',"data_yaourt.csv", " grammes de sucre pour 100g", " grammes de matières grasses pour 100g");
 
 function drawChart(div, file, xlab, ylab){
     var scatterdata;

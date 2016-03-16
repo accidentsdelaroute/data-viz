@@ -1,63 +1,63 @@
 brands_tags,calcium_100g,groups,y,x,size
-"Actimel Danone",.12,"Leader",.7,7.8,10
-"Nestle",,"Leader",7.2,10.5,10
-"Soignon",,"Leader",4.2,12,10
-"Domaine Du Bignon,Senoble",.13,"Leader",3.4,4.1,10
-"Sveltesse Nestle",.1377273,"Leader",.5,6.5,10
-"Sojasun",.1236842,"Leader",2.2,9.2,10
-"Les 2 Vaches",.1315,"Leader",3.1,11.2,10
-"Ilios,Danone",,"Leader",10,3.6,10
+"Oasis",,"Leader",1.9,12,10
+"Senoble",,"Leader",11.9,14.8,10
 "Elle Vire",,"Leader",.1,4.9,10
-"Mamie Nova",.115,"Leader",3.3,13,10
-"Malo",.12,"Leader",2.4,13.2,10
+"Sveltesse Nestle",.1377273,"Leader",.5,6.5,10
+"Nestle",,"Leader",7.2,10.5,10
 "Gervais Danone",.24,"Leader",7.2,13.3,10
 "Danone",.1319655,"Leader",2.2,10.2,10
-"Danacol Danone",.157,"Leader",.5,6.1,10
-"Rians",,"Leader",4.8,6.8,10
-"Senoble",,"Leader",11.9,14.8,10
-"Nestle,La Laitiere",.1255,"Leader",3,14.3,10
 "Danio Danone",.1103333,"Leader",1,11.2,10
-"Veloute Danone",.1433333,"Leader",3.2,9.2,10
-"Activia Danone",.1337,"Leader",3.1,9.8,10
+"Les 2 Vaches",.1315,"Leader",3.1,11.2,10
+"Nestle,La Laitiere",.1255,"Leader",3,14.3,10
+"Mamie Nova",.115,"Leader",3.3,13,10
 "La Laitiere,Nestle",.1305,"Leader",3.1,11.2,10
-"Oasis",,"Leader",1.9,12,10
+"Danacol Danone",.157,"Leader",.5,6.1,10
+"Malo",.12,"Leader",2.4,13.2,10
 "Taillefine Danone",.1231,"Leader",.2,5.7,10
+"Sojasun",.1236842,"Leader",2.2,9.2,10
+"Veloute Danone",.1433333,"Leader",3.2,9.2,10
+"Soignon",,"Leader",4.2,12,10
 "Bonne Maman",,"Leader",4.4,14.9,10
-"Intermarche Bio",.12,"Marques bio",3.5,9.6,10
-"Bonneterre",.126,"Marques bio",2.7,10.1,10
-"Vrai",,"Marques bio",3,7.6,10
-"Ose Bio,Vitafrais",,"Marques bio",3.7,4.8,10
-"Paysagebio,Laiterie Carrier",,"Marques bio",1,4.9,10
-"Casino Bio",,"Marques bio",5.1,9.3,10
-"Carrefour Bio",.12,"Marques bio",3.7,7.7,10
-"Migros,Elsa,M Bio",,"Marques bio",3.3,14,10
-"Monoprix Bio",,"Marques bio",3.4,12,10
+"Rians",,"Leader",4.8,6.8,10
+"Activia Danone",.1337,"Leader",3.1,9.8,10
+"Domaine Du Bignon,Senoble",.13,"Leader",3.4,4.1,10
+"Actimel Danone",.12,"Leader",.7,7.8,10
+"Ilios,Danone",,"Leader",10,3.6,10
+"Cora",,"Marques distributeur",2.2,11.2,10
+"Intermarche",.1271428,"Marques distributeur",2.3,10.9,10
+"Monoprix Gourmet",,"Marques distributeur",6.9,12.8,10
+"Dia",.12,"Marques distributeur",2.8,10.4,10
+"Monoprix",.1235,"Marques distributeur",2.4,8.2,10
+"Leader Price",.12,"Marques distributeur",2.4,11.7,10
+"Leclerc",.1336364,"Marques distributeur",2.6,8.8,10
+"Casino",.122,"Marques distributeur",3,10.2,10
+"Netto",.12,"Marques distributeur",1.7,13.3,10
+"Matin Clair",,"Marques distributeur",1,5,10
+"Auchan",.12,"Marques distributeur",2.8,9.8,10
+"U",.1285714,"Marques distributeur",2.7,10.2,10
+"Franprix",.1528125,"Marques distributeur",2.2,11.4,10
+"Carrefour",.13375,"Marques distributeur",2.6,8.9,10
 "U Bio",.12,"Marques bio",3.3,6.4,10
-"Yogourmand",,"Marques bio",3.7,4.8,10
 "Biochamps",.179,"Marques bio",2.9,7.8,10
-"Leclerc Bio",.12,"Marques bio",4.1,11.3,10
-"Biotrend",,"Marques bio",3.4,5.6,10
-"Lait Plaisirs Cremiers,Vitafrais",,"Marques bio",3.7,4.8,10
+"Intermarche Bio",.12,"Marques bio",3.5,9.6,10
+"Casino Bio",,"Marques bio",5.1,9.3,10
 "Biocoop",.17,"Marques bio",13,3,10
 "Paturages Bio,Paturages,Selection Intermarche",,"Marques bio",2.6,11.1,10
+"Yogourmand",,"Marques bio",3.7,4.8,10
+"Carrefour Bio",.12,"Marques bio",3.7,7.7,10
+"Vrai",,"Marques bio",3,7.6,10
+"Ose Bio,Vitafrais",,"Marques bio",3.7,4.8,10
+"Bonneterre",.126,"Marques bio",2.7,10.1,10
+"Monoprix Bio",,"Marques bio",3.4,12,10
+"Biotrend",,"Marques bio",3.4,5.6,10
 "Sojade",,"Marques bio",2.2,10.3,10
-"Springfresh",,"Premiers prix",.8,12.6,10
+"Leclerc Bio",.12,"Marques bio",4.1,11.3,10
+"Paysagebio,Laiterie Carrier",,"Marques bio",1,4.9,10
+"Lait Plaisirs Cremiers,Vitafrais",,"Marques bio",3.7,4.8,10
+"Migros,Elsa,M Bio",,"Marques bio",3.3,14,10
 "Winny,Bloc Cvba,Groupe Louis Delhaize",,"Premiers prix",.9,13.7,10
+"Monoprix P Tit Prix",.12,"Premiers prix",1.1,3.7,10
 "Eco",,"Premiers prix",1,12,10
 "Lidl",.1313333,"Premiers prix",2.6,11.8,10
-"Monoprix P Tit Prix",.12,"Premiers prix",1.1,3.7,10
 "Aldi",.12,"Premiers prix",2.8,11.2,10
-"U",.1285714,"Marques distributeurs",2.7,10.2,10
-"Cora",,"Marques distributeurs",2.2,11.2,10
-"Dia",.12,"Marques distributeurs",2.8,10.4,10
-"Leclerc",.1336364,"Marques distributeurs",2.6,8.8,10
-"Matin Clair",,"Marques distributeurs",1,5,10
-"Auchan",.12,"Marques distributeurs",2.8,9.8,10
-"Leader Price",.12,"Marques distributeurs",2.4,11.7,10
-"Netto",.12,"Marques distributeurs",1.7,13.3,10
-"Franprix",.1528125,"Marques distributeurs",2.2,11.4,10
-"Carrefour",.13375,"Marques distributeurs",2.6,8.9,10
-"Casino",.122,"Marques distributeurs",3,10.2,10
-"Monoprix",.1235,"Marques distributeurs",2.4,8.2,10
-"Monoprix Gourmet",,"Marques distributeurs",6.9,12.8,10
-"Intermarche",.1271428,"Marques distributeurs",2.3,10.9,10
+"Springfresh",,"Premiers prix",.8,12.6,10
